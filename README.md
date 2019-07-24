@@ -1,6 +1,6 @@
 ## 快速掌握vuex常用的所有api用法
 
-## vuex中，有默认的五种基本的对象
+## vuex中的五种基本的对象
 
 1.state：存储状态（变量）</br>
 2.getters：对数据获取之前的再次编译，可以理解为state的计算属性。我们在组件中使用 $sotre.getters.fun()</br>
