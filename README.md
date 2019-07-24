@@ -1,6 +1,6 @@
+## 快速掌握vuex常用的所有api用法
 
-
-# vuex中，有默认的五种基本的对象：
+## vuex中，有默认的五种基本的对象
 
 > 1.state：存储状态（变量）
   2.getters：对数据获取之前的再次编译，可以理解为state的计算属性。我们在组件中使用 $sotre.getters.fun()
@@ -8,6 +8,17 @@
   4.actions：异步操作。在组件中使用是$store.dispath('')
   5.modules：store的子模块，为了开发大型项目，方便状态管理而使用的。这里我们就不解释了，用起来和上面的一样。
 
+首先新建一个vue项目，用来测试：
+```
+vue init webpack vuex
+cd app/
+npm run dev
+src 下创建文件夹vuex
+vuex 文件夹下创建 store.js 文件夹modules
+modules 文件夹下创建app.js user.js
+```
+目录如下：
+![blockchain](https://raw.githubusercontent.com/xiaosongread/vuex/master/img-folder/1.png)
 
 
 
