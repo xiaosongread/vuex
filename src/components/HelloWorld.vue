@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <div>
-      <div>mapState简写：{{ name }}</div>
+      <div>mapState简写：{{ name }} / {{$store.state.name}}</div>
       <div>app中的appConut：{{ $store.state.app.appConut}}</div>
       <div>mapState简写：{{ appConut }}</div>
       <div>app中计算属性(appConut+100)watchAppConut：{{ $store.getters.watchAppConut}}</div>
