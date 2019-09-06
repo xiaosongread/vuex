@@ -94,7 +94,7 @@ export default {
 // var str1 = str.replace('some', 'much')
 // console.log(str1) // much money
 
-//replace的第一个参数可以为正则表达式
+// replace的第一个参数可以为正则表达式
 // var re = /\s/;//空白字符
 // alert(str.replace(re,"%"));//some%money
 
@@ -102,7 +102,7 @@ export default {
 // re = /\s+/;
 // alert(str.replace(re,"#"));//但这样只会将第一次出现的一堆空白字符替换掉
 
-//因为一个正则表达式只能进行一次匹配,\s+匹配了第一个空格后就退出了
+// 因为一个正则表达式只能进行一次匹配,\s+匹配了第一个空格后就退出了
 // re = /\s+/g;//g,全局标志,将使正则表达式匹配整个字符串
 // alert(str.replace(re,"@"));//some@some@some@
 
@@ -110,7 +110,7 @@ export default {
 // ### split
 // var str = "a-bd-c";
 // var arr = str.split("-");//返回["a","bd","c"]
-//如果str是用户输入的,他可能输入a-bd-c也可能输入a bd c或a_bd_c,但不会是abdc(这样就说他输错了)
+// 如果str是用户输入的,他可能输入a-bd-c也可能输入a bd c或a_bd_c,但不会是abdc(这样就说他输错了)
 // str = "a_db-c";//用户以他喜欢的方式加分隔符s
 // re=/[^a-z]/ig;//前面我们说^表示字符开始,但在[]里它表示一个负字符集
 // //匹配任何不在指定范围内的任意字符,这里将匹配除字母处的所有字符
@@ -134,7 +134,7 @@ export default {
 // arr = str.match(re);
 // alert(arr);//M,C,J,H
 
-//从字符串中抽取单词
+// 从字符串中抽取单词
 // re = /\b[a-z]*\b/gi;//\b表示单词边界
 // str = "one two three four";
 // alert(str.match(re));//one,two,three,four
